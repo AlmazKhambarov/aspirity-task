@@ -1,0 +1,55 @@
+.vacation_statistics {
+  max-width: 515px;
+  width: 100%;
+  background: #232324;
+  padding: 30px;
+  position: relative;
+  border-radius: 12px;
+}
+.chart_head{
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+.chart_head h3{
+  font-size: 24;
+  font-weight: 400;
+}
+.chart_container{
+  position: relative;
+}
+.chart_footer {
+  margin-top: 20px;
+}
+.count_days {
+  position: absolute;
+  left: 45%;
+  top: 25%;
+}   
+.footer_item  {
+  padding: 12px 10px;
+  border: 1px solid #363738;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_item p{
+  display: flex;
+  gap: 8px;
+}
+.active{
+    border: 1px solid #E1E3E6;
+}
+@media(max-width:1260px){
+  .vacation_statistics{
+    max-width: 400px;
+  }
+}
+@media(max-width:960px){
+  .vacation_statistics{
+    max-width: 100%;
+  }
+}

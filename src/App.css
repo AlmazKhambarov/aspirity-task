@@ -1,0 +1,128 @@
+/** @format */
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 100;
+  src: url("./assets//fonts/Poppins/Poppins-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  src: url("./assets/fonts/Poppins/Poppins-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./assets/fonts/Poppins/Poppins-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./assets/fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./assets/fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./assets/fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  src: url("./assets/fonts/Poppins/Poppins-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  src: url("./assets/fonts/Poppins/Poppins-Black.ttf") format("truetype");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #000;
+}
+html{
+  color: #E1E3E6;
+}
+.container {
+  width: 80%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+@media (max-width: 425px) {
+  .container {
+    width: 100%;
+  }
+}
+.ant-input{
+  background: none !important;
+  border-color: #363738 !important;
+  color: #fff !important;
+  box-shadow:none !important;
+  padding: 8px 14px 8px 14px !important;
+}
+.ant-tabs .ant-tabs-content-holder {
+  display: none !important;
+}
+.ant-tabs .ant-tabs-tab{
+  padding: 12px 10px !important;
+}
+.ant-tabs .ant-tabs-tab-btn{
+  color: #B0B1B6;
+}
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+  color: #E1E3E6 !important;
+}
+.ant-modal .ant-modal-content {
+  background: none !important;
+  padding: 0 !important; 
+}
+.ant-modal .ant-modal-content{
+
+}
+.ant-modal{
+  width: 650px !important;
+  color: #E1E3E6 !important;
+}
+.anticon svg{
+  display: none;
+}
+@media(max-width:480px){
+  .ant-modal{
+    width: 360px !important;
+  }
+}

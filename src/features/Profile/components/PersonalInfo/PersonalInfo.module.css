@@ -1,0 +1,53 @@
+.inner{
+    width: 100%;
+    max-width: 820px;
+}
+.personal_info {
+  background: #232324;
+  padding: 30px;
+  border-radius: 12px;
+}
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.form_full {
+  position: relative;
+  grid-column: auto / span 2;
+}
+.form_inner{
+  position: relative;
+}
+.form_label {
+  position: absolute;
+  top: -12px;
+  z-index: 9;
+  left: 20px;
+  background: #232324;
+  padding: 0px 10px;
+}
+.label {
+  color: #b0b1b6;
+  font-size: 12px;
+  font-weight: 400;
+}
+.submit_btn{
+  grid-column: auto / span 2;
+  width: 100%;
+  background:#0047BB ;
+  color: #E1E3E6;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+  border: none;
+  border-radius: 0px !important;
+}
+@media (max-width: 760px) {
+  .form {
+    display: block;
+  }
+  .form_full {
+    grid-column: auto / span 1;
+  }
+}

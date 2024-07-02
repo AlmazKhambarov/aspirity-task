@@ -1,0 +1,10 @@
+.basic{
+    display: flex;
+    gap: 16px;
+    margin-top: 40px;
+}
+@media (max-width: 960px) {
+    .basic {
+        flex-direction: column;
+    }
+  }

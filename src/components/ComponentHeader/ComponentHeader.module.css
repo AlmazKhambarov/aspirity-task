@@ -1,0 +1,22 @@
+.component_head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.component_head h3{
+    font-size: 24px;
+    font-weight: 400;
+    color: #E1E3E6;
+  }
+    
+  @media (max-width: 760px) {
+    .component_head h3{
+      font-size: 16px;
+    }
+    .component_head p{
+      font-size: 14px;
+    }
+  }
+  
